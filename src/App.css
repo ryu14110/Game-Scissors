@@ -1,0 +1,43 @@
+.box {
+  border: 3px solid black;
+  width: 400px;
+  padding: 20px;
+  margin: 30px;
+}
+.item-img {
+  width: 300px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.win {
+  border: 30px solid blue;
+  color: green;
+}
+.lose {
+  border: 20px solid red;
+  color: red;
+}
+.tie {
+  border: 20px solid gray;
+  color: grey;
+}
+button {
+  padding :10px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color:black;
+}
+@media (min-width: 320px) and (max-width: 800px) {
+
+  .container {
+    width: 500px;
+  } 
+  .main {
+    display: block;
+    /* justify-content: center; */
+    text-align: center;
+  }
+} 
